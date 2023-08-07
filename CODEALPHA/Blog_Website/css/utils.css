@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+:root{
+    --main-bg-color:brown;
+    --font1: 'Montserrat', cursive;
+    --font2: 'Roboto', sans-serif;
+}
+
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.my-2{
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.btn{
+    padding: 2px 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: var(--font2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.btn:hover{
+    color:white;
+    background-color: rgb(182, 173, 173);
+}
+
+.form-input{
+padding: 2px 5px;
+font-size: 16px;
+border: 2px solid black;
+border-radius: 4px;
+margin: 0 13px;
+font-family: var(--font2);
+}

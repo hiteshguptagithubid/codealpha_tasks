@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<div class="input">
+    <form class="input-fields">
+        <link rel="stylesheet" href="styles.css">
+          <h1 style="text-align: center ; color: black;">RESUME BUILDER</h1>
+          <h3 style="color: grey;">Name</h3>
+          <input type="text" name="name"  placeholder="Enter here"/>
+          <h3 style="color: grey;">Title</h3>
+          <input type="text" name="title" placeholder="Enter here" />
+          <h3 style="color: grey;">Experience</h3>
+          <textarea name="workexp" placeholder="Enter here"></textarea>
+          <h3 style="color: grey;">Academics</h3>
+          <textarea name="academics" placeholder="Enter here"></textarea>
+          <h3 style="color: grey;">Objective</h3>
+          <input name="objective" placeholder="Enter here" />
+          <h3 style="color: grey;">Skills</h3>
+          <textarea name="skills" placeholder="Enter here" ></textarea>
+          <h3 style="color: grey;">Projects</h3>
+          <textarea name="projects" placeholder="Enter here" ></textarea>
+          <h3 style="color: grey;">Achievements</h3>
+          <textarea name="achievements" placeholder="Enter here" ></textarea>
+          <h3 style="color: grey;">Contact</h3>
+          <textarea name="contact" placeholder="Enter here" ></textarea>
+          <!-- <h3></h3> -->
+    </form>
+</div>
+     <!-- resume preview -->
+    <div class="output">
+   
+    </div>  
+    <!-- button for toggle   -->
+   <div class="btn">
+        <button class="btn1"  onclick="toggle()" >Next or  Previous </button>
+  </div>
+   <script src="https://cdn.ckeditor.com/ckeditor5/27.1.0/classic/ckeditor.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
